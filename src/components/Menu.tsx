@@ -7,7 +7,7 @@ import {
     IonListHeader,
     IonMenu,
     IonMenuToggle,
-    IonNote,
+    IonNote, useIonViewDidEnter, useIonViewDidLeave, useIonViewWillEnter, useIonViewWillLeave,
 } from '@ionic/react';
 
 import React from 'react';
@@ -60,6 +60,23 @@ const appPages: AppPage[] = [
 ];
 
 const Menu: React.FC = () => {
+
+    useIonViewDidEnter(() => {
+        console.log('ionViewDidEnter event fired');
+    });
+
+    useIonViewDidLeave(() => {
+        console.log('ionViewDidLeave event fired');
+    });
+
+    useIonViewWillEnter(() => {
+        console.log('ionViewWillEnter event fired');
+    });
+
+    useIonViewWillLeave(() => {
+        console.log('ionViewWillLeave event fired');
+    });
+
     const location = useLocation();
 
     return (

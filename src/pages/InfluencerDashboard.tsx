@@ -1,11 +1,10 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
+import DashboardContainer from '../components/DashboardContainer';
 import './Page.css';
-import DashboardContainer from "../components/DashboardContainer";
 
-const Page: React.FC = () => {
+const InfluencerDashboard: React.FC = () => {
 
   const { name } = useParams<{ name: string; }>();
 
@@ -26,13 +25,10 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
-          {name === 'Dashboard' &&
-          <DashboardContainer name={name} />}
-          {name !== 'Dashboard' &&
-        <ExploreContainer name={name} />}
+        <DashboardContainer name={name} />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Page;
+export default InfluencerDashboard;
