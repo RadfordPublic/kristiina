@@ -2,8 +2,8 @@ import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, Io
 import React from 'react';
 import { useParams } from 'react-router';
 import ExploreContainer from '../components/ExploreContainer';
-import './Page.css';
 import DashboardContainer from "../components/DashboardContainer";
+import TabRoot from "./TabRoot";
 
 const Page: React.FC = () => {
 
@@ -26,9 +26,11 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
-          {name === 'Dashboard' &&
+          {name === 'dashboard' &&
           <DashboardContainer name={name} />}
-          {name !== 'Dashboard' &&
+          {name === 'profile' &&
+          <TabRoot />}
+          {name !== 'dashboard' && name !== 'profile' &&
         <ExploreContainer name={name} />}
       </IonContent>
     </IonPage>

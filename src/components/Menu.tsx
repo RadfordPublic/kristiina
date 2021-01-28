@@ -7,15 +7,28 @@ import {
     IonListHeader,
     IonMenu,
     IonMenuToggle,
-    IonNote, useIonViewDidEnter, useIonViewDidLeave, useIonViewWillEnter, useIonViewWillLeave,
+    IonNote,
+    useIonViewDidEnter,
+    useIonViewDidLeave,
+    useIonViewWillEnter,
+    useIonViewWillLeave,
 } from '@ionic/react';
 
 import React from 'react';
 import {useLocation} from 'react-router-dom';
 import {
-    calendarClearOutline, calendarClearSharp,
-    globeOutline, globeSharp, hammerOutline, hammerSharp,
-    homeOutline, homeSharp, personOutline, personSharp,
+    calendarClearOutline,
+    calendarClearSharp,
+    globeOutline,
+    globeSharp,
+    hammerOutline,
+    hammerSharp,
+    handRightOutline,
+    handRightSharp,
+    homeOutline,
+    homeSharp,
+    personOutline,
+    personSharp,
 } from 'ionicons/icons';
 import './Menu.css';
 
@@ -29,33 +42,45 @@ interface AppPage {
 const appPages: AppPage[] = [
     {
         title: 'Dashboard',
-        url: '/page/Dashboard',
+        url: '/page/dashboard',
         iosIcon: globeOutline,
         mdIcon: globeSharp
     },
     {
         title: 'Profile',
-        url: '/page/Profile',
+        url: '/page/profile',
         iosIcon: personOutline,
         mdIcon: personSharp
     },
     {
         title: 'Marketplace',
-        url: '/page/Marketplace',
+        url: '/page/marketplace',
         iosIcon: homeOutline,
         mdIcon: homeSharp
     },
     {
         title: 'Jobs',
-        url: '/page/Jobs',
+        url: '/page/jobs',
         iosIcon: hammerOutline,
         mdIcon: hammerSharp
     },
     {
-        title: 'Schedule',
-        url: '/page/Schedule',
+        title: 'Analytics',
+        url: '/page/analytics',
         iosIcon: calendarClearOutline,
         mdIcon: calendarClearSharp
+    },
+    {
+        title: 'Schedule',
+        url: '/page/schedule',
+        iosIcon: calendarClearOutline,
+        mdIcon: calendarClearSharp
+    },
+    {
+        title: 'Banking',
+        url: '/page/banking',
+        iosIcon: handRightOutline,
+        mdIcon: handRightSharp
     }
 ];
 

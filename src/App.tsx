@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import TabRoot from "./pages/TabRoot";
 
 const App: React.FC = () => {
 
@@ -33,7 +34,8 @@ const App: React.FC = () => {
           <Menu />
           <IonRouterOutlet id="main">
             <Route path="/page/:name" component={Page} exact />
-            <Redirect from="/" to="/page/Dashboard" exact />
+            <Route path="/page/profile" component={TabRoot} />
+            <Redirect from="/" to="/page/dashboard" exact />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>

@@ -2,15 +2,24 @@ import React from 'react';
 import './DashboardContainer.css';
 import {
     IonButton,
-    IonCard, IonCardContent,
+    IonCard,
+    IonCardContent,
     IonCardHeader,
     IonCardSubtitle,
     IonCardTitle,
     IonCol,
     IonContent,
-    IonGrid, IonItem, IonLabel, IonList,
-    IonRow, IonThumbnail
+    IonGrid,
+    IonItem,
+    IonItemOption,
+    IonItemOptions,
+    IonItemSliding,
+    IonLabel,
+    IonList,
+    IonRow,
+    IonThumbnail
 } from "@ionic/react";
+import SparklineChart from "./SparklineChart";
 
 interface DashboardProps {
     name: string;
@@ -25,7 +34,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Welcome</IonCardTitle>
-                                <IonCardSubtitle>Sam Radford</IonCardSubtitle>
+                                <IonCardSubtitle>Kristiina</IonCardSubtitle>
                             </IonCardHeader>
                         </IonCard>
                     </IonCol>
@@ -34,7 +43,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                     <IonCol size={"6"}>
                         <IonCard>
                             <IonCardHeader>
-                                <IonCardTitle>jobs feed</IonCardTitle>
+                                <IonCardTitle>Jobs Feed</IonCardTitle>
                             </IonCardHeader>
                             <IonCardContent>
                                 <IonList>
@@ -89,13 +98,87 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                     <IonCol size={"6"}>
                         <IonCard>
                             <IonCardHeader>
-                                <IonCardTitle>revenue history</IonCardTitle>
+                                <IonCardTitle>Revenue History</IonCardTitle>
                             </IonCardHeader>
+                            <IonCardContent>
+                                <SparklineChart/>
+                            </IonCardContent>
                         </IonCard>
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Message Box</IonCardTitle>
                             </IonCardHeader>
+                            <IonCardContent>
+                                <IonList>
+                                    <IonItemSliding>
+                                        <IonItemOptions side="start">
+                                            <IonItemOption color="danger" expandable>
+                                                Delete
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                        <IonItem>
+                                            <IonThumbnail slot="start">
+                                                <img alt={"model"}
+                                                     src="https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1920.medium.jpg/1610039131295.jpg"/>
+                                            </IonThumbnail>
+                                            <IonLabel>
+                                                <h2>Lewis Hamilton</h2>
+                                                <p>It's been great working with you</p>
+                                            </IonLabel>
+                                        </IonItem>
+                                        <IonItemOptions side="end">
+                                            <IonItemOption color="tertiary" expandable>
+                                                Reply
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                    </IonItemSliding>
+                                    <IonItemSliding>
+                                        <IonItemOptions side="start">
+                                            <IonItemOption color="danger" expandable>
+                                                Delete
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                        <IonItem>
+                                            <IonThumbnail slot="start">
+                                                <img alt={"model"}
+                                                     src="https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/image.img.1920.medium.jpg/1602844653480.jpg"/>
+                                            </IonThumbnail>
+                                            <IonLabel>
+                                                <h2>Daniel Ricciardo</h2>
+                                                <p>can we grab a shoey soon?</p>
+                                            </IonLabel>
+                                        </IonItem>
+                                        <IonItemOptions side="end">
+                                            <IonItemOption color="primary" expandable>
+                                                Reply
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                    </IonItemSliding>
+                                    <IonItemSliding>
+                                        <IonItemOptions side="start">
+                                            <IonItemOption color="danger" expandable>
+                                                Delete
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                        <IonItem>
+                                            <IonThumbnail slot="start">
+                                                <img alt={"model"}
+                                                     src="https://www.formula1.com/content/fom-website/en/drivers/george-russell/_jcr_content/image.img.1920.medium.jpg/1602843440111.jpg"/>
+                                            </IonThumbnail>
+                                            <IonLabel>
+                                                <h2>George Russell</h2>
+                                                <p>I'll be able to afford it when i drive for mercedes</p>
+                                            </IonLabel>
+                                        </IonItem>
+                                        <IonItemOptions side="end">
+                                            <IonItemOption color="tertiary" expandable>
+                                                Reply
+                                            </IonItemOption>
+                                        </IonItemOptions>
+                                    </IonItemSliding>
+
+                                </IonList>
+                            </IonCardContent>
                         </IonCard>
                     </IonCol>
                 </IonRow>
@@ -103,7 +186,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                     <IonCol size={"12"}>
                         <IonCard>
                             <IonCardHeader>
-                                <IonCardTitle>Active Job Tracking</IonCardTitle>
+                                <IonCardTitle>Active Jobs Tracking</IonCardTitle>
                             </IonCardHeader>
                         </IonCard>
                     </IonCol>
