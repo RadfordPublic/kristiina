@@ -1,8 +1,7 @@
 import React from 'react';
 import {
-    IonButton,
     IonCard, IonCardContent,
-    IonCardHeader, IonCardSubtitle, IonCardTitle,
+    IonCardHeader, IonCardTitle,
     IonCol,
     IonContent,
     IonGrid, IonIcon, IonItem, IonLabel, IonList,
@@ -11,7 +10,6 @@ import {
 import AudienceChart from "../components/AudienceChart";
 import {
     apertureSharp,
-    briefcaseSharp,
     logoAmazon,
     logoApple,
     logoDiscord,

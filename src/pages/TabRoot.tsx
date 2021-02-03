@@ -9,13 +9,9 @@ import {
   IonTabs
 } from '@ionic/react';
 import {
-  briefcaseOutline, briefcaseSharp,
-  calculatorOutline, calculatorSharp,
-  ellipse,
-  homeOutline, homeSharp,
-  peopleOutline, peopleSharp,
-  square,
-  triangle
+  briefcaseSharp,
+  calculatorSharp, homeSharp,
+   peopleSharp,
 } from 'ionicons/icons';
 import Tab1 from './Tab1';
 import Tab2 from './Tab2';
