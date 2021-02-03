@@ -34,7 +34,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Welcome</IonCardTitle>
-                                <IonCardSubtitle>Kristiina</IonCardSubtitle>
+                                <IonCardSubtitle>Martha</IonCardSubtitle>
                             </IonCardHeader>
                         </IonCard>
                     </IonCol>
@@ -50,10 +50,10 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                                     <IonItem>
                                         <IonThumbnail slot="start">
                                             <img alt={"model"}
-                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
                                         </IonThumbnail>
                                         <IonLabel>
-                                            <h2>Need male model, ecommerce shoots</h2>
+                                            <h2>Need female model, ecommerce shoots</h2>
                                             <p>$300 AUD</p>
                                         </IonLabel>
                                         <IonButton fill="outline" slot="end">View</IonButton>
@@ -61,10 +61,10 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                                     <IonItem>
                                         <IonThumbnail slot="start">
                                             <img alt={"model"}
-                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
                                         </IonThumbnail>
                                         <IonLabel>
-                                            <h2>Need male model, ecommerce shoots</h2>
+                                            <h2>Need female model, ecommerce shoots</h2>
                                             <p>$300 AUD</p>
                                         </IonLabel>
                                         <IonButton fill="outline" slot="end">View</IonButton>
@@ -72,10 +72,10 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                                     <IonItem>
                                         <IonThumbnail slot="start">
                                             <img alt={"model"}
-                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
                                         </IonThumbnail>
                                         <IonLabel>
-                                            <h2>Need male model, ecommerce shoots</h2>
+                                            <h2>Need female model, ecommerce shoots</h2>
                                             <p>$300 AUD</p>
                                         </IonLabel>
                                         <IonButton fill="outline" slot="end">View</IonButton>
@@ -83,10 +83,65 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                                     <IonItem>
                                         <IonThumbnail slot="start">
                                             <img alt={"model"}
-                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
                                         </IonThumbnail>
                                         <IonLabel>
-                                            <h2>Need male model, ecommerce shoots</h2>
+                                            <h2>Need female model, ecommerce shoots</h2>
+                                            <p>$300 AUD</p>
+                                        </IonLabel>
+                                        <IonButton fill="outline" slot="end">View</IonButton>
+                                    </IonItem>
+                                    <IonItem>
+                                        <IonThumbnail slot="start">
+                                            <img alt={"model"}
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                        </IonThumbnail>
+                                        <IonLabel>
+                                            <h2>Need female model, ecommerce shoots</h2>
+                                            <p>$300 AUD</p>
+                                        </IonLabel>
+                                        <IonButton fill="outline" slot="end">View</IonButton>
+                                    </IonItem>
+                                    <IonItem>
+                                        <IonThumbnail slot="start">
+                                            <img alt={"model"}
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                        </IonThumbnail>
+                                        <IonLabel>
+                                            <h2>Need female model, ecommerce shoots</h2>
+                                            <p>$300 AUD</p>
+                                        </IonLabel>
+                                        <IonButton fill="outline" slot="end">View</IonButton>
+                                    </IonItem>
+                                    <IonItem>
+                                        <IonThumbnail slot="start">
+                                            <img alt={"model"}
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                        </IonThumbnail>
+                                        <IonLabel>
+                                            <h2>Need female model, ecommerce shoots</h2>
+                                            <p>$300 AUD</p>
+                                        </IonLabel>
+                                        <IonButton fill="outline" slot="end">View</IonButton>
+                                    </IonItem>
+                                    <IonItem>
+                                        <IonThumbnail slot="start">
+                                            <img alt={"model"}
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                        </IonThumbnail>
+                                        <IonLabel>
+                                            <h2>Need female model, ecommerce shoots</h2>
+                                            <p>$300 AUD</p>
+                                        </IonLabel>
+                                        <IonButton fill="outline" slot="end">View</IonButton>
+                                    </IonItem>
+                                    <IonItem>
+                                        <IonThumbnail slot="start">
+                                            <img alt={"model"}
+                                                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAAAAACH5BAAAAAAALAAAAAABAAEAAAICTAEAOw=="/>
+                                        </IonThumbnail>
+                                        <IonLabel>
+                                            <h2>Need female model, ecommerce shoots</h2>
                                             <p>$300 AUD</p>
                                         </IonLabel>
                                         <IonButton fill="outline" slot="end">View</IonButton>
@@ -188,6 +243,24 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                             <IonCardHeader>
                                 <IonCardTitle>Active Jobs Tracking</IonCardTitle>
                             </IonCardHeader>
+                            <IonCardContent>
+                                <IonGrid>
+                                    <IonRow>
+                                        <IonCol size={"4"}>
+                                            <img
+                                                src="https://imageresizer.static9.net.au/u6eeM0dVOsR_zuy4g2_1bLi8o0k=/400x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fc60eb62a-3848-4915-951a-ebe70242d81a"/>
+                                            <IonCardHeader>
+                                                <IonCardTitle>MAFS Reunion</IonCardTitle>
+                                            </IonCardHeader>
+                                            <IonCardContent>
+                                                <IonLabel>
+                                                    <p>wearing dress provided by Sportsgirl</p>
+                                                </IonLabel>
+                                            </IonCardContent>
+                                        </IonCol>
+                                    </IonRow>
+                                </IonGrid>
+                            </IonCardContent>
                         </IonCard>
                     </IonCol>
                 </IonRow>

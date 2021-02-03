@@ -1,5 +1,5 @@
 import {
-    IonContent,
+    IonContent, IonHeader,
     IonIcon,
     IonItem,
     IonLabel,
@@ -7,7 +7,7 @@ import {
     IonListHeader,
     IonMenu,
     IonMenuToggle,
-    IonNote,
+    IonNote, IonTitle,
     useIonViewDidEnter,
     useIonViewDidLeave,
     useIonViewWillEnter,
@@ -17,6 +17,10 @@ import {
 import React from 'react';
 import {useLocation} from 'react-router-dom';
 import {
+    barChartOutline,
+    barChartSharp,
+    calculatorOutline,
+    calculatorSharp,
     calendarClearOutline,
     calendarClearSharp,
     globeOutline,
@@ -67,8 +71,8 @@ const appPages: AppPage[] = [
     {
         title: 'Analytics',
         url: '/page/analytics',
-        iosIcon: calendarClearOutline,
-        mdIcon: calendarClearSharp
+        iosIcon: barChartOutline,
+        mdIcon: barChartSharp
     },
     {
         title: 'Schedule',
@@ -79,8 +83,8 @@ const appPages: AppPage[] = [
     {
         title: 'Banking',
         url: '/page/banking',
-        iosIcon: handRightOutline,
-        mdIcon: handRightSharp
+        iosIcon: calculatorOutline,
+        mdIcon: calculatorSharp
     }
 ];
 
@@ -108,8 +112,8 @@ const Menu: React.FC = () => {
         <IonMenu contentId="main" type="overlay">
             <IonContent>
                 <IonList id="menu-list">
-                    <IonListHeader>Kristiina</IonListHeader>
-                    <IonNote>Welcome Demo</IonNote>
+                    <IonTitle>Tiion</IonTitle>
+                    <IonNote>Welcome Martha</IonNote>
                     {appPages.map((appPage, index) => {
                         return (
                             <IonMenuToggle key={index} autoHide={false}>

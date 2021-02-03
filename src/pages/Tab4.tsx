@@ -1,14 +1,14 @@
 import React from 'react';
 import {
     IonCard, IonCardContent,
-    IonCardHeader, IonCardSubtitle, IonCardTitle,
+    IonCardHeader, IonCardTitle,
     IonCol,
     IonContent,
     IonGrid, IonItem, IonLabel,
     IonRow, IonThumbnail,
 } from '@ionic/react';
 
-const Tab3: React.FC = () => {
+const Tab4: React.FC = () => {
   return (
       <IonContent>
           <IonGrid>
@@ -42,7 +42,7 @@ const Tab3: React.FC = () => {
                   <IonCol size={"6"}>
                       <IonCard>
                           <IonCardHeader>
-                              <IonCardTitle>Campaigns</IonCardTitle>
+                              <IonCardTitle>Banking</IonCardTitle>
                           </IonCardHeader>
                           <IonCardContent>
                           </IonCardContent>
@@ -54,4 +54,4 @@ const Tab3: React.FC = () => {
   );
 };
 
-export default Tab3;
+export default Tab4;
