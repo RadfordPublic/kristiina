@@ -1,13 +1,10 @@
 import React from "react";
-import Iframe from 'react-iframe';
 import {
-    IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCol,
+    IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCol,
     IonContent, IonGrid, IonItem, IonLabel, IonRow, IonThumbnail,
 } from "@ionic/react";
-import { useHistory } from "react-router";
 
 const Tab1: React.FC = () => {
-  const history = useHistory();
 
   return (
       <IonContent>

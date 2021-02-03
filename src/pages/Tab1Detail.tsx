@@ -1,15 +1,12 @@
 import React from "react";
 import {
-    IonHeader,
-    IonToolbar,
-    IonTitle,
     IonContent,
     IonButtons,
     IonBackButton,
-    IonPage, IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonButton,
+    IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonButton,
 } from "@ionic/react";
 
-const Tab1Detail: React.FC<any> = (props) => {
+const Tab1Detail: React.FC<any> = () => {
   return (
       <IonContent>
           <IonGrid>

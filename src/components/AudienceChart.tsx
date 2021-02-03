@@ -4,7 +4,6 @@ import './ExploreContainer.css';
 /* Imports */
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
-import {Tooltip} from "@amcharts/amcharts4/core";
 
 const {useRef} = React;
 
@@ -93,7 +92,7 @@ const AudienceChart: React.FC = () => {
             // @ts-ignore
             chartRef.current.data = data;
         }
-    }, [data]);
+    }, []);
 
     // Handle component unmounting, dispose chart
     React.useEffect(() => {

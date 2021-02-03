@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     IonCard, IonCardContent,
-    IonCardHeader, IonCardSubtitle, IonCardTitle,
+    IonCardHeader, IonCardTitle,
     IonCol,
     IonContent,
     IonGrid, IonItem, IonLabel,
