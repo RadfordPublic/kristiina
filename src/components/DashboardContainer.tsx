@@ -34,7 +34,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Welcome</IonCardTitle>
-                                <IonCardSubtitle>Martha</IonCardSubtitle>
+                                <IonCardSubtitle>Demo</IonCardSubtitle>
                             </IonCardHeader>
                         </IonCard>
                     </IonCol>
@@ -246,7 +246,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                             <IonCardContent>
                                 <IonGrid>
                                     <IonRow>
-                                        <IonCol size={"4"}>
+                                        <IonCol size={"4"} sizeSm={"12"}>
                                             <img  alt={'profile'}
                                                 src="https://imageresizer.static9.net.au/u6eeM0dVOsR_zuy4g2_1bLi8o0k=/400x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fc60eb62a-3848-4915-951a-ebe70242d81a"/>
                                             <IonCardHeader>

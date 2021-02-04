@@ -11,27 +11,27 @@ const CHART_ID = 'yeet_chart';
 
 const data = [
     {
-        year: "1990",
+        year: "2016",
         population: 730830065,
     },
     {
-        year: "1995",
+        year: "2017",
         population: 732194921,
     },
     {
-        year: "2000",
+        year: "2018",
         population: 735281836,
     },
     {
-        year: "2005",
+        year: "2019",
         population: 736717375,
     },
     {
-        year: "2010",
+        year: "2020",
         population: 743090810,
     },
     {
-        year: "2018",
+        year: "2021",
         population: 751612093,
     },
 ];
@@ -70,8 +70,6 @@ const AudienceChart: React.FC = () => {
             series.dataFields.valueY = "population";
             series.dataFields.categoryX = "year";
             series.name = "Population";
-            series.fillOpacity = 1;
-            series.fill = am4core.color('#787878');
             series.strokeWidth = 2;
 
 
@@ -106,7 +104,7 @@ const AudienceChart: React.FC = () => {
         id={CHART_ID}
         style={{
             width: '100%',
-            height: '300px',
+            height: '250px',
             margin: '50px 0'
         }}
     />
