@@ -9,7 +9,7 @@ import {
 } from '@ionic/react';
 import AudienceChart from "../components/AudienceChart";
 import {
-    apertureSharp, cameraSharp, fastFoodSharp, hardwareChipSharp,
+    cameraSharp, fastFoodSharp, hardwareChipSharp,
     logoAmazon,
     logoApple,
     logoDiscord,
@@ -31,24 +31,13 @@ const Tab2: React.FC = () => {
                             <IonCardContent>
                                 <IonGrid>
                                     <IonRow>
-                                        <IonCol size={"3"}>
+                                        <IonCol size={"12"}>
                                             <img alt={'profile'} style={{
                                                 display: "block",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
-                                                height: "150px",
-                                                width: "150px",
-                                                borderRadius: "50%",
+                                                marginLeft: "0",
+                                                marginRight: "0",
                                             }}
-                                                 src="https://s.yimg.com/ny/api/res/1.2/79yF4GQkOFYdSQZ4eBgqEw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTExOTguOA--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-08/45a57320-e014-11ea-9a96-395aac96b517"/>
-                                        </IonCol>
-                                        <IonCol size={"9"}>
-                                            <IonLabel>
-                                                <h1>Martha Kalifatidis</h1>
-                                                <h2>@marthaa__k</h2>
-                                                <br/>
-                                                <p> 870 posts 430k followers 1,581 following</p>
-                                            </IonLabel>
+                                                 src="https://i.imgur.com/ycn9Cud.jpg"/>
                                         </IonCol>
                                     </IonRow>
                                 </IonGrid>
@@ -57,7 +46,7 @@ const Tab2: React.FC = () => {
                     </IonCol>
                 </IonRow>
                 <IonRow>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Audience Growth</IonCardTitle>
@@ -67,7 +56,7 @@ const Tab2: React.FC = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Follower Analysis</IonCardTitle>
@@ -79,7 +68,7 @@ const Tab2: React.FC = () => {
                     </IonCol>
                 </IonRow>
                 <IonRow>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Age Distribution</IonCardTitle>
@@ -89,7 +78,7 @@ const Tab2: React.FC = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Ethnicity</IonCardTitle>
@@ -99,7 +88,7 @@ const Tab2: React.FC = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Gender</IonCardTitle>
@@ -111,7 +100,7 @@ const Tab2: React.FC = () => {
                     </IonCol>
                 </IonRow>
                 <IonRow>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Audience Brand affinity</IonCardTitle>
@@ -153,7 +142,7 @@ const Tab2: React.FC = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Audience Interests</IonCardTitle>
@@ -198,42 +187,33 @@ const Tab2: React.FC = () => {
                     </IonCol>
                 </IonRow>
                 <IonRow>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
-                                <IonCardTitle>Key Statistics</IonCardTitle>
+                                <IonCardTitle>Follower Report Summary</IonCardTitle>
                             </IonCardHeader>
                             <IonCardContent>
-                                <IonList>
-                                    <IonItem>
-                                        <IonIcon icon={apertureSharp}/>
-                                        <IonLabel>
-                                            <h1>&nbsp;&nbsp;&nbsp;&nbsp;45%</h1>
-                                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Engagement Rate</h2>
-                                        </IonLabel>
-                                    </IonItem>
-                                    <IonItem>
-                                        <IonIcon icon={apertureSharp}/>
-                                        <IonLabel>
-                                            <h1>&nbsp;&nbsp;&nbsp;&nbsp;20k</h1>
-                                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Authentic engagement per post</h2>
-                                        </IonLabel>
-                                    </IonItem>
-                                    <IonItem>
-                                        <IonIcon icon={apertureSharp}/>
-                                        <IonLabel>
-                                            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Health</h1>
-                                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Influencer key sector</h2>
-                                        </IonLabel>
-                                    </IonItem>
-                                    <IonItem>
-                                        <IonIcon icon={apertureSharp}/>
-                                        <IonLabel>
-                                            <h1>&nbsp;&nbsp;&nbsp;&nbsp;United States</h1>
-                                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Influencer main audience base</h2>
-                                        </IonLabel>
-                                    </IonItem>
-                                </IonList>
+                                <img alt={'profile'} style={{
+                                    display: "block",
+                                    marginLeft: "0",
+                                    marginRight: "0",
+                                }}
+                                     src="https://i.imgur.com/I4fGru8.png"/>
+                            </IonCardContent>
+                        </IonCard>
+                    </IonCol>
+                    <IonCol size={"12"} size-sm="6">
+                        <IonCard>
+                            <IonCardHeader>
+                                <IonCardTitle>Funnel Report</IonCardTitle>
+                            </IonCardHeader>
+                            <IonCardContent>
+                                <img alt={'profile'} style={{
+                                    display: "block",
+                                    marginLeft: "0",
+                                    marginRight: "0",
+                                }}
+                                     src="https://i.imgur.com/gJZ3kCa.png"/>
                             </IonCardContent>
                         </IonCard>
                     </IonCol>

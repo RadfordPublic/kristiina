@@ -6,7 +6,7 @@ import {
     IonList,
     IonMenu,
     IonMenuToggle,
-    IonNote, IonTitle,
+    IonNote,
     useIonViewDidEnter,
     useIonViewDidLeave,
     useIonViewWillEnter,
@@ -109,7 +109,14 @@ const Menu: React.FC = () => {
         <IonMenu contentId="main" type="overlay">
             <IonContent>
                 <IonList id="menu-list">
-                    <IonTitle>Tiion</IonTitle>
+                    <img alt={'profile'} style={{
+                        display: "block",
+                        marginLeft: "0",
+                        marginRight: "0",
+                        height: "150px",
+                        width: "300px",
+                    }}
+                         src="https://i.imgur.com/o1cmaC7.jpg"/>
                     <IonNote>Welcome Demo</IonNote>
                     {appPages.map((appPage, index) => {
                         return (

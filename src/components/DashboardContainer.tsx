@@ -30,7 +30,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
         <IonContent>
             <IonGrid>
                 <IonRow>
-                    <IonCol size={"12"}>
+                    <IonCol size={"12"} size-sm="12">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Welcome</IonCardTitle>
@@ -40,7 +40,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                     </IonCol>
                 </IonRow>
                 <IonRow>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Jobs Feed</IonCardTitle>
@@ -150,7 +150,7 @@ const DashboardContainer: React.FC<DashboardProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"6"}>
+                    <IonCol size={"12"} size-sm="6">
                         <IonCard>
                             <IonCardHeader>
                                 <IonCardTitle>Revenue History</IonCardTitle>

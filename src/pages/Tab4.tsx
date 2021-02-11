@@ -4,7 +4,7 @@ import {
     IonCardHeader, IonCardTitle,
     IonCol,
     IonContent,
-    IonGrid, IonLabel,
+    IonGrid,
     IonRow,
 } from '@ionic/react';
 
@@ -18,24 +18,13 @@ const Tab4: React.FC = () => {
                             <IonCardContent>
                                 <IonGrid>
                                     <IonRow>
-                                        <IonCol size={"3"}>
+                                        <IonCol size={"12"}>
                                             <img alt={'profile'} style={{
                                                 display: "block",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
-                                                height: "150px",
-                                                width: "150px",
-                                                borderRadius: "50%",
+                                                marginLeft: "0",
+                                                marginRight: "0",
                                             }}
-                                                 src="https://s.yimg.com/ny/api/res/1.2/79yF4GQkOFYdSQZ4eBgqEw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTExOTguOA--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-08/45a57320-e014-11ea-9a96-395aac96b517"/>
-                                        </IonCol>
-                                        <IonCol size={"9"}>
-                                            <IonLabel>
-                                                <h1>Martha Kalifatidis</h1>
-                                                <h2>@marthaa__k</h2>
-                                                <br/>
-                                                <p> 870 posts 430k followers 1,581 following</p>
-                                            </IonLabel>
+                                                 src="https://i.imgur.com/ycn9Cud.jpg"/>
                                         </IonCol>
                                     </IonRow>
                                 </IonGrid>
