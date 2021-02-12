@@ -23,10 +23,10 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
         <IonContent>
             <IonGrid>
                 <IonRow>
-                    <IonCol size={"12"}>
+                    <IonCol size={"12"} size-sm="12">
                         <IonSearchbar value={searchText} onIonChange={e => setSearchText(e.detail.value!)} animated/>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -91,7 +91,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -156,7 +156,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -221,7 +221,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -286,7 +286,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -351,7 +351,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -416,7 +416,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -481,7 +481,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -546,7 +546,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -611,7 +611,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -676,7 +676,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
@@ -741,7 +741,7 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
-                    <IonCol size={"4"}>
+                    <IonCol size={"12"} size-sm="4">
                         <IonCard>
                             <IonCardContent>
                                 <IonGrid>
