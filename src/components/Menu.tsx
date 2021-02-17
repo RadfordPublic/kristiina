@@ -106,17 +106,10 @@ const Menu: React.FC = () => {
     const location = useLocation();
 
     return (
-        <IonMenu contentId="main" type="overlay">
+        <IonMenu contentId="main" type="overlay" style={{width: "200px"}}>
             <IonContent>
                 <IonList id="menu-list">
-                    <img alt={'profile'} style={{
-                        display: "block",
-                        marginLeft: "0",
-                        marginRight: "0",
-                        height: "150px",
-                        width: "300px",
-                    }}
-                         src="https://i.imgur.com/o1cmaC7.jpg"/>
+
                     <IonNote>Welcome Demo</IonNote>
                     {appPages.map((appPage, index) => {
                         return (
