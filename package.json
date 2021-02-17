@@ -1,5 +1,5 @@
 {
-  "name": "Tiion",
+  "name": "tiion",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -8,6 +8,8 @@
     "@capacitor/core": "2.4.6",
     "@ionic/react": "^5.0.7",
     "@ionic/react-router": "^5.0.7",
+    "@nivo/bar": "^0.67.0",
+    "@nivo/core": "^0.67.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^8.0.3",

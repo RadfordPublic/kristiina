@@ -21,6 +21,8 @@ import FollowerPieChart from "../components/FollowerPieChart";
 import AgeGroupDonutChart from "../components/AgeGroupDonutChart";
 import EthnicityChart from "../components/EthnicityChart";
 import GenderDonutChart from "../components/GenderDonutChart";
+import AffinityNivo from "../components/AffinityNivo";
+import InsightsNivo from "../components/InsightsNivo";
 
 const Tab2: React.FC = () => {
     return (
@@ -54,10 +56,55 @@ const Tab2: React.FC = () => {
                                                     marginLeft: "0",
                                                     marginRight: "0",
                                                 }}
-                                                     src="https://i.imgur.com/ycn9Cud.jpg"/>
+                                                     src="https://i.imgur.com/dnfl8f1.jpg"/>
                                             </IonCol>
                                         </IonRow>
                                     </IonGrid>
+                                </IonCardContent>
+                            </IonCard>
+                        </IonCol>
+                    </IonRow>
+                    <IonRow>
+                        <IonCol size={"12"} size-sm="4">
+                            <IonCard>
+                                <IonCardHeader>
+                                    <IonCardTitle>Affinity Category</IonCardTitle>
+                                </IonCardHeader>
+                                <IonCardContent style={{
+                                    width: '100%',
+                                    height: '300px',
+                                    margin: '30px 0'
+                                }}>
+                                    <AffinityNivo/>
+                                </IonCardContent>
+                            </IonCard>
+                        </IonCol>
+                        <IonCol size={"12"} size-sm="4">
+                            <IonCard>
+                                <IonCardHeader>
+                                    <IonCardTitle>Influence Insights</IonCardTitle>
+                                </IonCardHeader>
+                                <IonCardContent style={{
+                                    width: '100%',
+                                    height: '300px',
+                                    margin: '30px 0'
+                                }}>
+                                    <InsightsNivo/>
+                                </IonCardContent>
+                            </IonCard>
+                        </IonCol>
+                        <IonCol size={"12"} size-sm="4">
+                            <IonCard>
+                                <IonCardHeader>
+                                    <IonCardTitle>LookALike Accounts</IonCardTitle>
+                                </IonCardHeader>
+                                <IonCardContent>
+                                    <img alt={'profile'} style={{
+                                        display: "block",
+                                        marginLeft: "0",
+                                        marginRight: "0",
+                                    }}
+                                         src="https://i.imgur.com/N8JxJlU.png"/>
                                 </IonCardContent>
                             </IonCard>
                         </IonCol>
@@ -127,35 +174,35 @@ const Tab2: React.FC = () => {
                                         <IonItem>
                                             <IonIcon icon={logoAmazon}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Amazon 20%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Amazon 20%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={logoApple}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Apple inc
-                                                    13%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Apple inc
+                                                    13%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={logoDiscord}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Discord
-                                                    13%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Discord
+                                                    13%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={logoPlaystation}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Playstation
-                                                    11%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Playstation
+                                                    11%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={logoTwitter}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Twitter
-                                                    40%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Twitter
+                                                    40%</h3>
                                             </IonLabel>
                                         </IonItem>
                                     </IonList>
@@ -172,36 +219,36 @@ const Tab2: React.FC = () => {
                                         <IonItem>
                                             <IonIcon icon={cameraSharp}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Camera &
-                                                    Photography 45.66%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Camera &
+                                                    Photography 45.66%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={hardwareChipSharp}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Computers
-                                                    40.32%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Computers
+                                                    40.32%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={tvSharp}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Film
-                                                    23.21%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Film
+                                                    23.21%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={trailSignSharp}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Travel
-                                                    20.24%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Travel
+                                                    20.24%</h3>
                                             </IonLabel>
                                         </IonItem>
                                         <IonItem>
                                             <IonIcon icon={fastFoodSharp}/>
                                             <IonLabel>
-                                                <h1 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Food
-                                                    17.04%</h1>
+                                                <h3 style={{textAlign: "right"}}>&nbsp;&nbsp;&nbsp;&nbsp;Food
+                                                    17.04%</h3>
                                             </IonLabel>
                                         </IonItem>
                                     </IonList>
