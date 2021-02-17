@@ -46,7 +46,7 @@ const InsightsNivo: React.FC = () => {
                     id: 'lines',
                     type: 'patternLines',
                     background: 'inherit',
-                    color: '#0ed3e5',
+                    color: '#83cdd9',
                     rotation: -45,
                     lineWidth: 6,
                     spacing: 10

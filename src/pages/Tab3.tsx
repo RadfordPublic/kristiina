@@ -40,7 +40,7 @@ const Tab3: React.FC = () => {
                                                     marginLeft: "0",
                                                     marginRight: "0",
                                                 }}
-                                                     src="https://i.imgur.com/ycn9Cud.jpg"/>
+                                                     src="https://i.imgur.com/dnfl8f1.jpg"/>
                                             </IonCol>
                                         </IonRow>
                                     </IonGrid>
