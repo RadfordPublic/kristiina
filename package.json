@@ -10,6 +10,9 @@
     "@ionic/react-router": "^5.0.7",
     "@nivo/bar": "^0.67.0",
     "@nivo/core": "^0.67.0",
+    "@nivo/heatmap": "^0.67.0",
+    "@nivo/line": "^0.67.0",
+    "@nivo/scatterplot": "^0.67.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^8.0.3",
@@ -23,6 +26,7 @@
     "ionicons": "^5.0.0",
     "moment": "^2.29.1",
     "react": "^16.13.0",
+    "react-big-calendar": "^0.32.0",
     "react-dom": "^16.13.0",
     "react-iframe": "^1.8.0",
     "react-router": "^5.1.2",
@@ -54,5 +58,5 @@
   "devDependencies": {
     "@capacitor/cli": "2.4.6"
   },
-  "description": "An Ionic project"
+  "description": "Influencer app by Sam Radford"
 }
