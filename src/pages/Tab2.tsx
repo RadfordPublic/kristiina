@@ -8,7 +8,7 @@ import {
     IonGrid, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonMenuButton,
     IonRow, IonToolbar,
 } from '@ionic/react';
-import AudienceChart from "../components/AudienceChart";
+import AudienceChart from "../components/amcharts/AudienceChart";
 import {
     cameraSharp, fastFoodSharp, hardwareChipSharp,
     logoAmazon,
@@ -17,12 +17,12 @@ import {
     logoPlaystation,
     logoTwitter, trailSignSharp, tvSharp
 } from "ionicons/icons";
-import FollowerPieChart from "../components/FollowerPieChart";
-import AgeGroupDonutChart from "../components/AgeGroupDonutChart";
-import EthnicityChart from "../components/EthnicityChart";
-import GenderDonutChart from "../components/GenderDonutChart";
-import AffinityNivo from "../components/AffinityNivo";
-import InsightsNivo from "../components/InsightsNivo";
+import FollowerPieChart from "../components/amcharts/FollowerPieChart";
+import AgeGroupDonutChart from "../components/amcharts/AgeGroupDonutChart";
+import EthnicityChart from "../components/amcharts/EthnicityChart";
+import GenderDonutChart from "../components/amcharts/GenderDonutChart";
+import AffinityNivo from "../components/nivocharts/AffinityNivo";
+import InsightsNivo from "../components/nivocharts/InsightsNivo";
 
 const Tab2: React.FC = () => {
     return (

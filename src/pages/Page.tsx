@@ -5,6 +5,9 @@ import ExploreContainer from '../components/ExploreContainer';
 import DashboardContainer from "../components/DashboardContainer";
 import TabRoot from "./TabRoot";
 import MarketPlaceContainer from "../components/MarketPlaceContainer";
+import ModelContainer from "../components/ModelContainer";
+import BankContainer from "../components/BankContainer";
+import CalendarContainer from "../components/CalendarContainer";
 
 const Page: React.FC = () => {
 
@@ -35,7 +38,13 @@ const Page: React.FC = () => {
           <MarketPlaceContainer name={name} />}
           {name === 'profile' &&
           <TabRoot />}
-          {name !== 'dashboard' && name !== 'profile' && name !== 'marketplace' &&
+          {name === 'model' &&
+          <ModelContainer name={name} />}
+          {name === 'banking' &&
+          <BankContainer name={name} />}
+          {name === 'calendar' &&
+          <CalendarContainer name={name} />}
+          {name !== 'dashboard' && name !== 'profile' && name !== 'marketplace' && name !== 'model' && name !== 'banking' && name !== 'calendar' &&
         <ExploreContainer name={name} />}
       </IonContent>
     </IonPage>

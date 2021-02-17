@@ -24,8 +24,6 @@ import {
     calendarClearSharp,
     globeOutline,
     globeSharp,
-    hammerOutline,
-    hammerSharp,
     homeOutline,
     homeSharp,
     personOutline,
@@ -60,20 +58,14 @@ const appPages: AppPage[] = [
         mdIcon: homeSharp
     },
     {
-        title: 'Jobs',
-        url: '/page/jobs',
-        iosIcon: hammerOutline,
-        mdIcon: hammerSharp
-    },
-    {
-        title: 'Analytics',
-        url: '/page/analytics',
+        title: 'Models',
+        url: '/page/model',
         iosIcon: barChartOutline,
         mdIcon: barChartSharp
     },
     {
-        title: 'Schedule',
-        url: '/page/schedule',
+        title: 'Calendar',
+        url: '/page/calendar',
         iosIcon: calendarClearOutline,
         mdIcon: calendarClearSharp
     },
@@ -109,7 +101,6 @@ const Menu: React.FC = () => {
         <IonMenu contentId="main" type="overlay" style={{width: "200px"}}>
             <IonContent>
                 <IonList id="menu-list">
-
                     <IonNote>Welcome Demo</IonNote>
                     {appPages.map((appPage, index) => {
                         return (

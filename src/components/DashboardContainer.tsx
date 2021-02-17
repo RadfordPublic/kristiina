@@ -19,7 +19,7 @@ import {
     IonRow,
     IonThumbnail
 } from "@ionic/react";
-import SparklineChart from "./SparklineChart";
+import SparklineChart from "./amcharts/SparklineChart";
 
 interface DashboardProps {
     name: string;

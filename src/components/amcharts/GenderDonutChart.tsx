@@ -1,5 +1,5 @@
 import React from 'react';
-import './ExploreContainer.css';
+import '../ExploreContainer.css';
 
 /* Imports */
 import * as am4core from "@amcharts/amcharts4/core";

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ExploreContainer.css';
+import '../ExploreContainer.css';
 
 /* Imports */
 import * as am4core from "@amcharts/amcharts4/core";
@@ -7,27 +7,24 @@ import * as am4charts from "@amcharts/amcharts4/charts";
 
 const {useRef} = React;
 
-const CHART_ID = 'eth_chart';
+const CHART_ID = 'follower_chart';
 
 const data = [ {
-    "EthnicGroup": "Asian",
-    "People": 7
-},{
-    "EthnicGroup": "African",
-    "People": 18
-},{
-    "EthnicGroup": "Hispanic",
-    "People": 11
-},{
-    "EthnicGroup": "Indian",
-    "People": 3
-},{
-    "EthnicGroup": "Caucasian",
-    "People": 61
+    "Audience": "Real People",
+    "People": 360492
+}, {
+    "Audience": "Influencers",
+    "People": 6821
+}, {
+    "Audience": "Mass Followers",
+    "People": 55329
+}, {
+    "Audience": "Suspicious Accounts",
+    "People": 30114
 }
 ];
 
-const EthnicityChart: React.FC = () => {
+const FollowerPieChart: React.FC = () => {
     const chartRef = useRef(null);
 
     React.useEffect(() => {
@@ -42,9 +39,10 @@ const EthnicityChart: React.FC = () => {
             // @ts-ignore
             let pieSeries = chartRef.current.series.push(new am4charts.PieSeries());
             pieSeries.dataFields.value = "People";
-            pieSeries.dataFields.category = "EthnicGroup";
+            pieSeries.dataFields.category = "Audience";
             pieSeries.slices.template.stroke = am4core.color("#fff");
             pieSeries.slices.template.strokeOpacity = 1;
+
             // Disabling labels and ticks on inner circle
             pieSeries.labels.template.disabled = true;
             pieSeries.ticks.template.disabled = true;
@@ -54,8 +52,6 @@ const EthnicityChart: React.FC = () => {
             pieSeries.hiddenState.properties.endAngle = -90;
             pieSeries.hiddenState.properties.startAngle = -90;
 
-            // @ts-ignore
-            chartRef.current.hiddenState.properties.radius = am4core.percent(0);
 
             // add legend
             // @ts-ignore
@@ -63,9 +59,9 @@ const EthnicityChart: React.FC = () => {
             // @ts-ignore
             chartRef.current.legend.position = "right";
 
-            // add donut
             // @ts-ignore
-            chartRef.current.innerRadius = am4core.percent(30);
+            chartRef.current.hiddenState.properties.radius = am4core.percent(0);
+
 
             // Add cursor
             // @ts-ignore
@@ -98,10 +94,10 @@ const EthnicityChart: React.FC = () => {
         id={CHART_ID}
         style={{
             width: '100%',
-            height: '300px',
+            height: '250px',
             margin: '50px 0'
         }}
     />
 }
 
-export default EthnicityChart;
+export default FollowerPieChart;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ExploreContainer.css';
+import '../ExploreContainer.css';
 
 /* Imports */
 import * as am4core from "@amcharts/amcharts4/core";
@@ -7,36 +7,36 @@ import * as am4charts from "@amcharts/amcharts4/charts";
 
 const {useRef} = React;
 
-const CHART_ID = 'yeet_chart';
+const CHART_ID = 'population_chart';
 
 const data = [
     {
-        year: "2016",
+        year: "1990",
         population: 730830065,
     },
     {
-        year: "2017",
+        year: "1995",
         population: 732194921,
     },
     {
-        year: "2018",
+        year: "2000",
         population: 735281836,
     },
     {
-        year: "2019",
+        year: "2005",
         population: 736717375,
     },
     {
-        year: "2020",
+        year: "2010",
         population: 743090810,
     },
     {
-        year: "2021",
+        year: "2018",
         population: 751612093,
     },
 ];
 
-const AudienceChart: React.FC = () => {
+const SparklineChart: React.FC = () => {
     const chartRef = useRef(null);
 
     React.useEffect(() => {
@@ -66,11 +66,15 @@ const AudienceChart: React.FC = () => {
 
             // Create series
             // @ts-ignore
-            let series = chartRef.current.series.push(new am4charts.LineSeries());
+            let series = chartRef.current.series.push(new am4charts.ColumnSeries());
             series.dataFields.valueY = "population";
             series.dataFields.categoryX = "year";
             series.name = "Population";
-            series.strokeWidth = 2;
+            series.fillOpacity = 1;
+            series.fill = am4core.color('#e5408f');
+            series.strokeWidth = 0;
+            series.columns.template.column.cornerRadiusTopLeft = 5;
+            series.columns.template.column.cornerRadiusTopRight = 5;
 
 
             // Add cursor
@@ -104,10 +108,10 @@ const AudienceChart: React.FC = () => {
         id={CHART_ID}
         style={{
             width: '100%',
-            height: '250px',
+            height: '300px',
             margin: '50px 0'
         }}
     />
 }
 
-export default AudienceChart;
+export default SparklineChart;
