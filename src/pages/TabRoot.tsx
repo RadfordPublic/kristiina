@@ -35,7 +35,7 @@ const TabRoot: React.FC = () => (
                 </IonRouterOutlet>
                 <IonTabBar slot="bottom">
                     <IonTabButton tab="tab1" href="/page/profile/tabs/tab1">
-                        <IonIcon icon={homeSharp}/>
+                        <IonIcon icon={homeSharp} color={'white'}/>
                         <IonLabel>Overview</IonLabel>
                     </IonTabButton>
                     <IonTabButton tab="tab2" href="/page/profile/tabs/tab2">

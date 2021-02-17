@@ -59,18 +59,14 @@ const ClicksNivo: React.FC = () => {
                 legendOffset: -12,
             }}
             curve={'linear'}
-            enablePointLabel={true}
             colors={{scheme: 'paired'}}
             useMesh={true}
             enableSlices={false}
-            margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+            margin={{ top: 30, right: 110, bottom: 30, left: 60 }}
             yFormat=" >-.2f"
             axisTop={null}
             axisRight={null}
-
             pointColor={{ theme: 'background' }}
-
-            pointLabelYOffset={-12}
             legends={[
                 {
                     anchor: 'bottom-right',

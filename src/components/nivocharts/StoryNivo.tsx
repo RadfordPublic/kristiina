@@ -89,7 +89,7 @@ const StoryNivo: React.FC = () => {
                 'Sunday'
             ]}
             indexBy="story"
-            margin={{ top: 30, right: 60, bottom: 60, left: 60 }}
+            margin={{ top: 30, right: 60, bottom: 70, left: 60 }}
             forceSquare={false}
             axisBottom={{ orient: 'top', tickSize: 5, tickPadding: 5, tickRotation: -70, legend: '', legendOffset: 36 }}
             axisRight={null}

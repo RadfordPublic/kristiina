@@ -51,7 +51,7 @@ const EngagementNivo: React.FC = () => {
                 format: '%b %d',
                 tickValues: 'every 2 days',
             }}
-            margin={{ top: 60, right: 140, bottom: 70, left: 90 }}
+            margin={{ top: 30, right: 140, bottom: 30, left: 90 }}
             yScale={{ type: 'linear', min: 0, max: 'auto' }}
             yFormat={function(e){return e+" "}}
             blendMode="multiply"
