@@ -49,25 +49,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -114,25 +114,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -179,25 +179,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -244,25 +244,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -309,25 +309,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -374,25 +374,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -439,25 +439,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -504,25 +504,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -569,25 +569,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -634,25 +634,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -699,25 +699,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
@@ -764,25 +764,25 @@ const MarketPlaceContainer: React.FC<MarketPlaceProps> = () => {
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>9.1m</h1>
-                                                <h3>Followers</h3>
+                                                <h4>Followers</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>3.5%</h1>
-                                                <h3>Engagement</h3>
+                                                <h4>Engagement</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>4%</h1>
-                                                <h3>Sponsored</h3>
+                                                <h4>Sponsored</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"3"}>
                                             <IonLabel>
                                                 <h1>33</h1>
-                                                <h3>Completed Jobs</h3>
+                                                <h4>Completed Jobs</h4>
                                             </IonLabel>
                                         </IonCol>
                                         <IonCol size={"12"}>
