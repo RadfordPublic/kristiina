@@ -36,7 +36,7 @@ const CampaignContainer: React.FC<CampaignProps> = () => {
                                     marginLeft: "0",
                                     marginRight: "0",
                                 }}
-                                     src="https://i.imgur.com/jGv55Tz.png"/>
+                                     src="https://i.imgur.com/BUI8NLz.png"/>
                             </IonCardContent>
                         </IonCard>
                     </IonCol>
