@@ -21,7 +21,7 @@ import {
     calculatorOutline,
     calculatorSharp,
     calendarClearOutline,
-    calendarClearSharp,
+    calendarClearSharp, fitnessOutline, fitnessSharp,
     globeOutline,
     globeSharp,
     homeOutline,
@@ -56,6 +56,12 @@ const appPages: AppPage[] = [
         url: '/page/marketplace',
         iosIcon: homeOutline,
         mdIcon: homeSharp
+    },
+    {
+        title: 'Campaign',
+        url: '/page/campaign',
+        iosIcon: fitnessOutline,
+        mdIcon: fitnessSharp
     },
     {
         title: 'Models',

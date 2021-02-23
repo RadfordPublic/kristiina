@@ -8,6 +8,7 @@ import MarketPlaceContainer from "../components/MarketPlaceContainer";
 import ModelContainer from "../components/ModelContainer";
 import BankContainer from "../components/BankContainer";
 import CalendarContainer from "../components/CalendarContainer";
+import CampaignContainer from "../components/CampaignContainer";
 
 const Page: React.FC = () => {
 
@@ -30,7 +31,6 @@ const Page: React.FC = () => {
                  src="https://i.imgur.com/o1cmaC7.jpg"/>
         </IonToolbar>
       </IonHeader>
-
       <IonContent fullscreen>
           {name === 'dashboard' &&
           <DashboardContainer name={name} />}
@@ -42,9 +42,11 @@ const Page: React.FC = () => {
           <ModelContainer name={name} />}
           {name === 'banking' &&
           <BankContainer name={name} />}
+          {name === 'campaign' &&
+          <CampaignContainer name={name} />}
           {name === 'calendar' &&
           <CalendarContainer name={name} />}
-          {name !== 'dashboard' && name !== 'profile' && name !== 'marketplace' && name !== 'model' && name !== 'banking' && name !== 'calendar' &&
+          {name !== 'dashboard' && name !== 'profile' && name !== 'marketplace' && name !== 'model' && name !== 'banking' && name !== 'calendar' && name !== 'campaign' &&
         <ExploreContainer name={name} />}
       </IonContent>
     </IonPage>

@@ -41,25 +41,6 @@ const InsightsNivo: React.FC = () => {
             borderColor={{from: 'color', modifiers: [['darker', 1.6]]}}
             axisTop={null}
             axisRight={null}
-            defs={[
-                {
-                    id: 'lines',
-                    type: 'patternLines',
-                    background: 'inherit',
-                    color: '#83cdd9',
-                    rotation: -45,
-                    lineWidth: 6,
-                    spacing: 10
-                }
-            ]}
-            fill={[
-                {
-                    match: {
-                        id: 'value'
-                    },
-                    id: 'lines'
-                }
-            ]}
             labelSkipWidth={12}
             labelSkipHeight={12}
             labelTextColor={{from: 'color', modifiers: [['darker', 1.6]]}}
