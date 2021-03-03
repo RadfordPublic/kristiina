@@ -298,6 +298,55 @@ const Tab4: React.FC = () => {
                             </IonCard>
                         </IonCol>
                     </IonRow>
+                    <IonRow>
+                        <IonCol size={"12"} size-sm="3">
+                            <IonCard>
+                                <IonCardHeader>
+                                    <IonCardTitle>Get Paid Early</IonCardTitle>
+                                </IonCardHeader>
+                                <IonCardContent>
+                                    <img alt={'profile'} style={{
+                                        display: "block",
+                                        marginLeft: "0",
+                                        marginRight: "0",
+                                    }}
+                                         src="https://i.imgur.com/hkFfCf4.png"/>
+                                </IonCardContent>
+                            </IonCard>
+                            <IonCard>
+                                <IonCardContent style={{marginBottom: 65}}>
+                                    <img alt={'profile'} style={{
+                                        display: "block",
+                                        marginLeft: "0",
+                                        marginRight: "0",
+                                    }}
+                                         src="https://i.imgur.com/kzlr18N.png"/>
+                                </IonCardContent>
+                            </IonCard>
+                        </IonCol>
+                        <IonCol size={"12"} size-sm="9">
+                            <IonCard>
+                                <IonCardContent style={{marginBottom: 20}}>
+                                    <img alt={'profile'} style={{
+                                        display: "block",
+                                        marginLeft: "0",
+                                        marginRight: "0",
+                                    }}
+                                         src="https://i.imgur.com/qLYU6BU.png"/>
+                                </IonCardContent>
+                            </IonCard>
+                            <IonCard>
+                                <IonCardContent>
+                                    <img alt={'profile'} style={{
+                                        display: "block",
+                                        marginLeft: "0",
+                                        marginRight: "0",
+                                    }}
+                                         src="https://i.imgur.com/DNBYra7.png"/>
+                                </IonCardContent>
+                            </IonCard>
+                        </IonCol>
+                    </IonRow>
                 </IonGrid>
             </IonContent>
         </>
