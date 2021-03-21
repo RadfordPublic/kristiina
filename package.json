@@ -27,6 +27,7 @@
     "ionicons": "^5.0.0",
     "moment": "^2.29.1",
     "react": "^16.13.0",
+    "ionic": "^5.4.16",
     "react-big-calendar": "^0.32.0",
     "react-dom": "^16.13.0",
     "react-iframe": "^1.8.0",
